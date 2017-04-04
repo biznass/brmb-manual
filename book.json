@@ -1,5 +1,8 @@
 {
-  "plugins": ["html5-video","alerts","livereload","anchors","theme-arangodb"]
+  "plugins": ["html5-video","alerts","livereload","anchors","theme-arangodb"],
+   "styles": {
+  "website": "styles/website.css" 
 }
+  }
 
 
