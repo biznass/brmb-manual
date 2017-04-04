@@ -173,32 +173,32 @@ body {
 }
 
 
-.doc-header {
+.arangodb-header {
   position: fixed;
   width: 100%;
   height: 48px;
   z-index: 1;
 }
 
-.doc-header .socialIcons-googlegroups a img {
+.arangodb-header .socialIcons-googlegroups a img {
   position: relative;
   height: 14px;
   top: 3px;
 }
 
-.doc-navmenu {
+.arangodb-navmenu {
   display: block;
   float: right;
   margin: 0;
   padding: 0;
 }
 
-.doc-navmenu li {
+.arangodb-navmenu li {
   display: block;
   float: left;
 }
 
-.doc-navmenu li a {
+.arangodb-navmenu li a {
   display: block;
   float: left;
   padding: 0 10px;
@@ -210,7 +210,7 @@ body {
   font-family: Roboto, Helvetica, sans-serif;
 }
 
-.doc-navmenu li.active-tab a, .doc-navmenu li a:hover {
+.arangodb-navmenu li.active-tab a, .arangodb-navmenu li a:hover {
   background-color: #88A049 !important;
 }
 
@@ -247,7 +247,7 @@ body {
     width: 130px !important;
   }
 
-  .doc-navmenu li a {
+  .arangodb-navmenu li a {
     font-size: 15px;
     padding: 0 7px;
   }
