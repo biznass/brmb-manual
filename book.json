@@ -1,5 +1,5 @@
 {
-  "plugins": ["html5-video","alerts","livereload","anchors","theme-arangodb"],
+  "plugins": ["html5-video","alerts","livereload","anchors","theme-arangodb"]
 }
 
 
