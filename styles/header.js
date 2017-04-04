@@ -20,13 +20,13 @@ function appendHeader() {
   var div = document.createElement('div');
   div.innerHTML = '<div class="arangodb-header">\n' +
     '  <div class="arangodb-logo">\n' +
-    '    <a href="https://arangodb.com/">\n' +
-    '      <img src="https://docs.arangodb.com/assets/arangodb_logo_2016.png">\n' +
+    '    <a href="https://www.backroadmapbooks.com/">\n' +
+    '      <img src="https://www.backroadmapbooks.com/skin/frontend/ultimo/default/images/logo_sticky.png">\n' +
     '    </a>\n' +
     '  </div>\n' +
     '  <div class="arangodb-logo-small">\n' +
-    '    <a href="https://arangodb.com/">\n' +
-    '      <img src="https://docs.arangodb.com/assets/arangodb_logo_small_2016.png">\n' +
+    '    <a href="https://www.backroadmapbooks.com/">\n' +
+    '      <img src="https://www.backroadmapbooks.com/skin/frontend/ultimo/default/images/logo_sticky.png">\n' +
     '    </a>\n' +
     '  </div>\n' +
     '  <select class="arangodb-version-switcher">\n' +
@@ -52,27 +52,27 @@ function appendHeader() {
     '      <a href="#" data-book="cookbook">Cookbook</a>\n' +
     '    </li>\n' +
     '    <li class="downloadIcon" title="Download">\n' +
-    '      <a href="https://www.arangodb.com/download-arangodb-docs" target="_blank">\n' +
+    '      <a href="#" target="_blank">\n' +
     '        <i class="fa fa-download"></i>\n' +
     '      </a>\n' +
     '    </li>\n' +
     '    <li class="socialIcons" title="GitHub">\n' +
-    '      <a href="https://github.com/ArangoDB/ArangoDB/issues" target="_blank">\n' +
+    '      <a href="#" target="_blank">\n' +
     '        <i class="fa fa-github"></i>\n' +
     '      </a>\n' +
     '    </li>\n' +
     '    <li class="socialIcons" title="StackOverflow">\n' +
-    '      <a href="http://stackoverflow.com/questions/tagged/arangodb" target="_blank">\n' +
+    '      <a href="#" target="_blank">\n' +
     '        <i class="fa fa-stack-overflow"></i>\n' +
     '      </a>\n' +
     '    </li>\n' +
     '    <li class="socialIcons socialIcons-googlegroups" title="Google Groups">\n' +
-    '      <a href="https://groups.google.com/forum/#!forum/arangodb" target="_blank">\n' +
+    '      <a href="#" target="_blank">\n' +
     '        <img alt="Google Groups" src="https://docs.arangodb.com/assets/googlegroupsIcon.png" />\n' +
     '      </a>\n' +
     '    </li>\n' +
     '    <li class="socialIcons" title="Slack">\n' +
-    '      <a href="https://slack.arangodb.com" target="_blank">\n' +
+    '      <a href="#" target="_blank">\n' +
     '        <i class="fa fa-slack"></i>\n' +
     '      </a>\n' +
     '    </li>\n' +
@@ -131,7 +131,7 @@ function appendHeader() {
       }
       window.location.href = urlSplit.join("/") + "/" + e.target.value + "/" + currentBook + "/";
     } else {
-      window.location.href = "https://docs.arangodb.com/" + e.target.value;
+      window.location.href = "https://geomatik.gitbooks.io/brmb-gps-manual/" + e.target.value;
     }
   });
 
